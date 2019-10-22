@@ -1,0 +1,32 @@
+<html>
+    <div class="container" align="center">
+        <head>
+            <h2>CSV/ EXCEL to RDF</h2>
+        </head>
+        <body>
+           <table style="width:80%">
+           {% for heading in headers %}
+               <th>{{heading}}</th>
+           {% endfor %}
+                    {% for row in result %}
+                     <tr style="outline: thin solid">
+                        <td>
+                            {% if row[0] %}
+                                {{ row[2] }}
+                                {%  else %}
+                                 dddhd
+                            {% endif %}
+                        </td>
+                        <td>
+                        {{ row[1] }}
+                        </td>
+                        <td>
+                        {{ row[0] }}
+                        </td>
+                    </tr>
+                        {% endfor %}
+
+                 </table>
+        </body>
+    </div>
+</html>

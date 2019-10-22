@@ -1,0 +1,19 @@
+<http://org.com/employee/3>
+        <http://org.com/employee/salary>
+                33333 .
+
+<http://org.com/employee/1>
+        <http://org.com/employee/salary>
+                11111 .
+
+<http://org.com/employee/4>
+        <http://org.com/employee/salary>
+                44444 .
+
+<http://org.com/employee/2>
+        <http://org.com/employee/salary>
+                22222 .
+
+<http://org.com/employee/5>
+        <http://org.com/employee/salary>
+                555 .
